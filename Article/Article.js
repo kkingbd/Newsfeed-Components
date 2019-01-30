@@ -19,8 +19,8 @@ class Article {
       TweenMax.to(this.domElement, 1,{y:10, delay:0.2});
       this.expandButton.textContent = 'Close';
     } else {
-      TweenMax.to(this.domElement, 1,{height: 50});
-      TweenMax.to(this.domElement, 1,{x:80, delay:0.2});
+      TweenMax.to(this.domElement, 0.8,{height: 50});
+      TweenMax.to(this.domElement, 1,{x:50, delay:0.2});
       TweenMax.to(this.domElement, 1,{y:-10, delay:0.2});
       this.expandButton.textContent = 'Expand';
     };

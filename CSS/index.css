@@ -94,13 +94,17 @@
 }
 .article .expandButton {
   position: absolute;
-  bottom: 0;
-  left: 50%;
+  top: 10%;
+  left: 90%;
   font-size: 12px;
-  color: grey;
+  border: 1px solid grey;
+  width: 50px;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
   cursor: pointer;
   transform: translate(-50%);
-  background-color: white;
+  background-color: pink;
 }
 .article-open {
   height: 400px;
